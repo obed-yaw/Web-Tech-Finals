@@ -39,6 +39,8 @@ if (isset($_SESSION["uid"])) {
 	VALUES ($order_id, '$user_id','$f_name','$email', 
     '$address', '$city', '$state', '$zip','$cardname','$cardnumberstr','$expdate','$total_count','$prod_total','$cvv')";
 
+    
+
 
     if(mysqli_query($con,$sql)){
         $i=1;
@@ -61,6 +63,7 @@ if (isset($_SESSION["uid"])) {
                 $del_sql="DELETE from cart where user_id=$user_id";
                 if(mysqli_query($con,$del_sql)){
                     echo"<script>window.location.href='store.php'</script>";
+                   
                 }else{
                     echo(mysqli_error($con));
                 }

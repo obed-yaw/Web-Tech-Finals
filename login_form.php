@@ -46,7 +46,7 @@ if (isset($_POST["login_user_with_product"])) {
                                     
                                     <div class="text-pad" >
                                        <a href="#">
-                                           forget password ?
+                                          <!--  forget password ? -->
                                        </a>
                                         
                                     </div>

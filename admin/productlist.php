@@ -65,7 +65,7 @@ include "topheader.php";
                         <td>$price</td>
                         <td>
 
-                        <a class=' btn btn-success' href='clothes_list.php?product_id=$product_id&action=delete'>Delete</a>
+                        <a class=' btn btn-success' onclick='return confirm('Are you sure you want to delete this item')' href='productlist.php?product_id=$product_id&action=delete'>Delete</a>
                         </td></tr>";
                         }
 
