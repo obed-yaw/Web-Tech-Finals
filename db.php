@@ -1,8 +1,8 @@
 <?php
 
-$servername = "20.108.182.178";
+$servername = "localhost";
 $username = "root";
-$password = "Nuclearbomb2.";
+$password = "";
 $db = "onlineshop";
 
 // Create connection
